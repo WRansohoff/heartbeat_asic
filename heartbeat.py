@@ -10,7 +10,6 @@ def main():
     chip.load_target("freepdk45_demo")        # load predefined target
     chip.run()                                # run compilation
     chip.summary()                            # print results summary
-    chip.show()                               # show layout file
 
 
 if __name__ == '__main__':
